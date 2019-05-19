@@ -22,10 +22,10 @@ public class IOServer {
                 try {
                     Socket socket = serverSocket.accept();
                     new Thread(() -> {
-                        InputStream inputStream = null;
+                        InputStream inputStream;
                         byte[] data = new byte[1024];
                         try {
-                             inputStream = socket.getInputStream();
+                            inputStream = socket.getInputStream();
                             while (true) {
                                 int len;
                                 while ((len = inputStream.read(data, 0, data.length)) != 0) {
