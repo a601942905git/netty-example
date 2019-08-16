@@ -11,6 +11,7 @@
     <modules>
         <module>traditional-io-example</module>
         <module>nio-chat-room</module>
+        <module>http-example</module>
     </modules>
 
 
