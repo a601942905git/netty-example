@@ -10,8 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>traditional-io-example</module>
-        <module>nio-chat-room</module>
         <module>http-example</module>
+        <module>nio-example</module>
     </modules>
 
 
